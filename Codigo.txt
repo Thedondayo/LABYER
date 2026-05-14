@@ -1,0 +1,29 @@
+## 🔍 Identificación del Cambio
+- *Ticket CCB:* CCB-2026-XXX (Obligatorio)
+- *Tipo:* [ ] Frontend/UI  [ ] Backend  [ ] BD  [ ] Infra  [ ] Documentación
+- *Justificación de Negocio:* 
+  <!-- Vincular con prioridad operativa o SOW. Ej: "Mejora UX para KPIs diarios del cliente" -->
+
+## 📊 Evaluación de Impacto y Riesgo (Matriz CCB)
+- *Alcance técnico real:* 
+  <!-- Qué archivos/lógica se modifica. Ej: "Solo CSS/HTML, sin tocar PHP o BD" -->
+- *Riesgo identificado:* [ ] Bajo  [ ] Medio  [ ] Alto  [ ] Crítico
+- *Mitigación:* <!-- Si es Alto/Crítico, describir plan de contingencia -->
+- *Reversibilidad:* [ ] Git revert en <15min  [ ] Requiere rollback manual  [ ] Irreversible
+
+## ✅ Checklist de Validación Técnica (CI/QA)
+- [ ] Linting CSS/JS/PHP aprobado (sin warnings ni errores)
+- [ ] Tests PHPUnit ejecutados con cobertura ≥80% (si aplica backend)
+- [ ] Responsividad validada en 3 breakpoints: 320px, 768px, 1280px
+- [ ] No se modifica lógica de negocio ni estructura de BD (salvo aprobación explícita CCB)
+- [ ] CHANGELOG.md actualizado con versión y descripción del cambio
+
+## 👥 Aprobaciones Requeridas (Gobernanza)
+- [ ] Revisión de par (Dev) - Comentarios resueltos
+- [ ] Visto bueno Arquitecto/QA - Validación técnica
+- [ ] Aprobación CCB - Solo para cambios de alcance, BD o críticos (adjuntar acta si aplica)
+
+## 📎 Evidencias (Opcional pero recomendado)
+- [ ] Capturas de pantalla del cambio UI
+- [ ] Link a prueba de concepto o staging
+- [ ] Reporte de cobertura de tests
